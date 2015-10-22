@@ -5,8 +5,7 @@ ships with it. Contributions to extend support to multiple shades are welcome.
 To automate your blinds, you'll need to install the SmartThings device type,
 make some modifications to the remote, and load the Arduino sketch. These steps can be
 performed in any order, but note the locations of pins 9, 10, 11, 3.3v, and a GND pin on
-the Arduino prior to installing the SmartThings Sheild - it's quite difficult to see where
-the pins are underneath it!
+the Arduino prior to installing the SmartThings Sheild - it's quite difficult to see where the pins are underneath it!
 
 For hardware installation instructions, see the README in the "Sketch" directory.
 For SmartApp installation instructions, see the README in the "SmartApp" directory.
