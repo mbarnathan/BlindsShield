@@ -1,0 +1,13 @@
+This sketch is for using the Blinds.com Economy Motorized Shade with the SmartThings Shield. Currently, one shade is supported. Contributions for extending to multiple shades are straightforward, and welcome.
+
+To use:
+
+First, upload the sketch to the Arduino and pair with SmartThings. Note where pins 9, 10, 11, +3.3v, and a ground pin are located on the shield. Place the shield on the Arduino.
+
+Next, prepare the hardware:
+
+Crack open the remote that comes with the shade and remove the battery (we will be powering it from the 3.3v terminal of the Arduino). Connect J2 (middle button) and J3 (up button) on the remote to pins 11 and 9, respectively.
+There is no jumper corresponding to the down button, so you will have to solder directly to the switch terminal. Connect the top left terminal of S3 to pin 10. Be careful with the iron as this is close to the location of the microcontroller on the other side.
+Finally, connect J4 (ground) to GND and J5 to +3.3v.
+
+You should be all set! Power the Arduino up and use the SmartApp to control your blinds! Refer to the README in the parent directory for instructions on SmartApp setup.

@@ -1,0 +1,12 @@
+Blinds Shield (c) 2015 Michael Barnathan
+
+This is the SmartThings device type for the hacked Blinds.com Economy Motorized Cellular Shade.
+It implements a dimmer-like interface, with an "on"/100% status when the shades are fully down,
+and an "off"/0% status when the shades are fully up.
+
+To use:
+
+Pair the SmartThings Shield with SmartThings. Go into the SmartThings IDE, create a new SmartApp "from code", and paste the contents of blinds-shield.groovy into the editor. Save and publish for yourself.
+Next, navigate to the device corresponding to the shield you've just paired. Edit this device and set the device type to "Blinds Shield". Update the device and refresh SmartThings.
+
+That's it for the server side! Check out the README in the Sketch directory for how to prepare the Arduino and remote.
